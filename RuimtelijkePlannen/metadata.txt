@@ -1,0 +1,21 @@
+[general]
+name=Regels op de kaart
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+description=Plugin for using Dutch online zoning plans from https://omgevingswet.overheid.nl/regels-op-de-kaart/
+version=4.0.0
+icon=ruimtelijkeplannen.svg
+author=Tim Dubbeldam - Provincie Zeeland, Jos Rijborz - Provincie Zeeland (for QGIS2), Raymond Nijssen - OpenGeoGroep (for QGIS2), Marco Duiker - OpenGeoGroep (for QGIS3)
+email=t.dubbeldam@zeeland.nl
+tracker=https://github.com/ProvincieZeeland/RegelsOpDeKaart_qgisplugin/issues
+repository=https://github.com/ProvincieZeeland/RegelsOpDeKaart_qgisplugin
+homepage=https://github.com/ProvincieZeeland/RegelsOpDeKaart_qgisplugin
+tags=RO-Online,ruimtelijkeplannen.nl,Ruimtelijke,Plannen,Bestemmingsplan,zoning plans,IMRO,omgevingswet,regelsopdekaart,regels,
+changelog=
+    4.0.0   (2024-10-17) Code transferred to Zeeland github repository and rewritten for new API Regels op de Kaart
+    3.5.2   (2024-01-26) New URL and referer for RP service
+category=Plugins
+about=Plugin for using Dutch online zoning plans from https://omgevingswet.overheid.nl/regels-op-de-kaart/. Layer actions are defined to open linked texts in a web browser. This plug-in was developed with the help of ChatGPT and is therefore not as structured as a plug-in normally is. An API Key can be requested at https://aandeslagmetdeomgevingswet.nl/ontwikkelaarsportaal/formulieren/api-key-aanvragen-0/
+hasProcessingProvider=no
+experimental=False
+deprecated=False
