@@ -2,11 +2,11 @@
 
 ## Overzicht
 
-De voorheen **Ruimtelijke Plannen** en tegenwoordig **Regels op de kaart**, plug-in stelt gebruikers in staat om ruimtelijke plannen op te halen van de **Omgevingswet API**. Dit geeft de mogelijkheid om plannen direct binnen QGIS te bekijken en te importeren, zodat deze lagen kunnen worden gestijld en gevisualiseerd. Deze plug-in is handig voor professionals die met ruimtelijke ordening en omgevingsplannen werken.
+De voorheen **Ruimtelijke Plannen** en tegenwoordig **Regels op de kaart**, plug-in stelt gebruikers in staat om ruimtelijke plannen op te halen van de **/Presenteren API** van de DSO-LV. Dit geeft de mogelijkheid om plannen direct binnen QGIS te bekijken en te importeren, zodat deze lagen kunnen worden gestijld en gevisualiseerd. Deze plug-in is handig voor professionals die met ruimtelijke ordening en omgevingsplannen werken.
 
 ## Functies
 
-- Haal ruimtelijke plannen op via de **API van de Omgevingswet**.
+- Haal ruimtelijke plannen op via de **/Presenteren API van DSO-LV**.
 - Ondersteunt zowel punt- als polygoontekeningen op de kaart om plannen binnen een bepaald gebied op te vragen.
 - Selecteer tot maximaal 100 plannen die overlappen met het gekozen gebied.
 - Voeg plannen toe aan je QGIS-project.
@@ -24,14 +24,14 @@ De voorheen **Ruimtelijke Plannen** en tegenwoordig **Regels op de kaart**, plug
 
 ## Gebruik
 
-1. **API-key invoeren**: Na installatie dien je je API-key in te voeren in de plug-in-instellingen. Deze key is verplicht om verbinding te maken met de Omgevingswet API.
+1. **API-key invoeren**: Na installatie dien je je API-key in te voeren in de plug-in-instellingen. Deze key is verplicht om verbinding te maken met /presenteren API van de DSO-LV.
 2. **Tekenmethode kiezen**: Selecteer een tekenmethode (punt of polygoon) en klik op de kaart om het gebied te selecteren waarvan je ruimtelijke plannen wilt opvragen.
 3. **Plannen opvragen**: De plug-in haalt maximaal 100 overlappende ruimtelijke plannen op binnen het geselecteerde gebied.
 4. **Plannen importeren**: Selecteer de gewenste plannen en klik op **Importeren** om deze toe te voegen aan je QGIS-project. Elke laag wordt automatisch gegroepeerd en gestijld per plan.
 
 ## Belangrijke opmerking
 
-Deze plug-in is **uitsluitend een hulpmiddel** om gegevens van de Omgevingswet API te visualiseren binnen QGIS. Er kunnen **geen rechten worden ontleend** aan de gegevens of de werking van deze tool. Het is de verantwoordelijkheid van de gebruiker om de juistheid en relevantie van de data te controleren en na te gaan of deze geschikt is voor het beoogde gebruik.
+Deze plug-in is **uitsluitend een hulpmiddel** om gegevens van de /Presnteren API te visualiseren binnen QGIS. Er kunnen **geen rechten worden ontleend** aan de gegevens of de werking van deze tool. Het is de verantwoordelijkheid van de gebruiker om de juistheid en relevantie van de data te controleren en na te gaan of deze geschikt is voor het beoogde gebruik.
 
 ## API Documentatie
 
